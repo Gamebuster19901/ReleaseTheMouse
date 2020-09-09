@@ -16,7 +16,7 @@ public class MouseReleaseManager {
 	static {
 		Thread mainThread = null;
 		for(Thread thread : Thread.getAllStackTraces().keySet()) {
-			if(thread.getName().equals("Client thread")) {
+			if(thread.getName().equals("Render thread")) {
 				mainThread = thread;
 				break;
 			}
