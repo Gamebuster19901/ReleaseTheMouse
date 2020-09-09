@@ -1,0 +1,11 @@
+modLoader="javafml" #mandatory
+loaderVersion="[28,)" #mandatory (28 is current forge version)
+issueTrackerURL="http://my.issue.tracker/" #optional
+[[mods]] #mandatory
+modId="releasethemouse" #mandatory
+version="${file.jarVersion}" #mandatory
+displayName="Release the Mouse" #mandatory
+authors="Gamebuster1990" #optional
+description='''
+A mod to work around a GLFW bug where when the main thred is suspended, the mouse isn't released.
+'''
